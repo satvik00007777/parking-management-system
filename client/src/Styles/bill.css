@@ -1,0 +1,98 @@
+.bill-component {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff; /* Ensure visible background */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+  color: #333; /* Dark text for visibility */
+}
+
+h2 {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  color: black; /* Ensure text color is visible */
+  visibility: visible; /* Ensure it's visible */
+  display: block; /* Ensure it's not hidden */
+}
+
+.bill-item {
+  margin-bottom: 20px;
+  background-color: white;
+}
+
+  
+  .bill-item p {
+    font-size: 1.1rem;
+    line-height: 1.5;
+    margin: 5px 0;
+  }
+  
+  .bill-item p strong {
+    color: #333;
+  }
+  
+  .close-btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .close-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .bill-component {
+      padding: 15px;
+    }
+  
+    h2 {
+      font-size: 1.25rem;
+    }
+  
+    .bill-item p {
+      font-size: 1rem;
+    }
+  
+    .close-btn {
+      padding: 12px;
+      font-size: 1rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .bill-component {
+      width: 100%;
+      padding: 10px;
+    }
+  
+    h2 {
+      font-size: 1.1rem;
+    }
+  
+    .bill-item p {
+      font-size: 0.95rem;
+    }
+  
+    .close-btn {
+      font-size: 0.9rem;
+      padding: 10px;
+    }
+  }
+  
+  .bill-item{
+    background-color: white;
+  }
+
+  

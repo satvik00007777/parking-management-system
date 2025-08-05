@@ -1,0 +1,38 @@
+/* App.css */
+
+.App {
+    background-image: url('https://images.pexels.com/photos/3864110/pexels-photo-3864110.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    background: rgba(0, 0, 0, 0.7); 
+    padding: 2rem;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+}
+
+h1, h2,h3, p {
+    color: #fff;
+}
+
+a {
+    color: #66b2ff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #4CAF50;
+}
+ 

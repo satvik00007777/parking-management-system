@@ -1,0 +1,89 @@
+/* Dashboard.css */
+
+.dashboard-container {
+  padding: 20px;
+}
+
+.parking-lots {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.parking-lot {
+  background-color: rgba(0, 0, 0, 0.7);
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 8px;
+  width: 200px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.add-lot-btn {
+  margin-top: 20px;
+  padding: 10px 15px;
+  font-size: 16px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.edit-modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 300px;
+  padding: 20px;
+  background: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  z-index: 1000;
+}
+
+.edit-modal h3 {
+  margin-top: 0;
+}
+
+.edit-modal label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.edit-modal input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.edit-modal button {
+  margin-right: 10px;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.edit-modal button:first-of-type {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.edit-modal button:last-of-type {
+  background-color: #f44336;
+  color: white;
+}
+
+form{
+  background-color: rgba(0, 0, 0, 0.85);
+  width: auto;
+}
+div {
+  background-color: rgba(0, 0, 0, 0.7);
+}
