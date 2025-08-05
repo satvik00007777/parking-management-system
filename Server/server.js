@@ -44,12 +44,14 @@ app.route("/").get((req,res)=>{
 
 app.use(errorMiddleware)
 
-app.listen(port,(err)=>{
-    if(!err){
-        console.log(`app started listening on the ${port} `)
-    }
-    else {
-        console.log(`failed to listen on the given ${port} with error ${err}`)
-    }
-})
+// app.listen(port,(err)=>{
+//     if(!err){
+//         console.log(`app started listening on the ${port} `)
+//     }
+//     else {
+//         console.log(`failed to listen on the given ${port} with error ${err}`)
+//     }
+// })
+
+export default app;
 
